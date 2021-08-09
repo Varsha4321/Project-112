@@ -1,0 +1,122 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href = "<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">" 
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+      <div class = "col-xs-12 header_div">
+        <h2>
+          Image Identification App
+          <img src = "https://media4.giphy.com/media/pEfgbZ5gk8TVoHM5Lv/giphy.gif?cid=6c09b952ef2df1a884b4394569ab43a2f7ef89124520958e&rid=giphy.gif&ct=s">
+        </h2>
+      </div>
+
+      <lo>
+        <div class = "text_images_and_results">
+          <li>
+            <b>Test Image - </b><img id = "shoe"src = "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1610416577-vans-1610416571.jpg" class = "img-responsive">
+          </li>
+          <h5>Output on <b>Microsoft Azure </b> -
+            <span>a close up of some shoes</span>
+          </h5>
+          <h5>Output on <b>Mobilenet Model </b> -
+            <span>Running shoes</span>
+          </h5>
+
+        </div>
+
+      </lo>
+
+      <lo>
+        <div class = "text_images_and_results">
+          <li>
+            <b>Test Image - </b><img id = "apple"src = "https://i.postimg.cc/43WJBRGH/Apple.png" class = "img-responsive">
+          </li>
+          <h5>Output on <b>Microsoft Azure </b> -
+            <span>an apple sitting on a table</span>
+          </h5>
+          <h5>Output on <b>Mobilenet Model </b> -
+            <span>mouse, computer mouse</span>
+          </h5>
+
+        </div>
+
+      </lo>
+
+      <lo>
+        <div class = "text_images_and_results">
+          <li>
+            <b>Test Image - </b><img id = "apple"src = "https://i.postimg.cc/gjHdXCg0/Waterbottle.png" class = "img-responsive">
+          </li>
+          <h5>Output on <b>Microsoft Azure </b> -
+            <span>a body of water</span>
+          </h5>
+          <h5>Output on <b>Mobilenet Model </b> -
+            <span>water bottle</span>
+          </h5>
+
+        </div>
+
+      </lo>
+
+      <lo>
+        <div class = "text_images_and_results">
+          <li>
+            <b>Test Image - </b><img id = "apple"src = "https://i.postimg.cc/NGpzFG4H/Dog.png" class = "img-responsive">
+          </li>
+          <h5>Output on <b>Microsoft Azure </b> -
+            <span>a close up of a dog</span>
+          </h5>
+          <h5>Output on <b>Mobilenet Model </b> -
+            <span>Pomeranian</span>
+          </h5>
+
+        </div>
+
+      </lo>
+
+      <lo>
+        <div class = "text_images_and_results">
+          <li>
+            <b>Test Image - </b><img id = "apple"src = "https://i.postimg.cc/9M1JD1Gh/Space-ship.png" class = "img-responsive">
+          </li>
+          <h5>Output on <b>Microsoft Azure </b> -
+            <span>Undefined</span>
+          </h5>
+          <h5>Output on <b>Mobilenet Model </b> -
+            <span> space shuttle</span>
+          </h5>
+
+        </div>
+
+      </lo>
+    </center>
+
+    <div class = "col-xs-12 footer_div">
+      <h4 class = "col-sm-6 col-xs-12 footer_div">
+        <span id = "object_name">I have tested 5 images. MobileNet has predicted 4 of them correctly. Microsoft Azure has predicted 3 of them correctly. So according to the case study MobileNet is more accurate.
+        </span>
+      </h4>
+    </div>
+
+    <div class = "copy_right_footer">
+      Developed By: Varsha
+    </div>
+
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
